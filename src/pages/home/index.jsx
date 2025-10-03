@@ -1,21 +1,12 @@
-import { Link } from "react-router-dom"
+import { Footer } from "../../components/Footer"
+import { Navbar } from "../../components/Navbar"
 
 export const HomePage = () => {
   return (
+    <>
+      <Navbar />
+
     <main>
-      <header className="flex justify-between items-center ">
-        <picture>
-          <img src="./ChatGPT Image 30 de set. de 2025, 19_26_50.png" alt="logo do site" className="w-full max-w-[64px]" />
-        </picture>
-
-        <ul className="flex gap-6 pr-10">
-          <li className="hover:underline font-semibold text-lg"><Link to='/'>Home</Link></li>
-          <li className="hover:underline font-semibold text-lg"><Link to='/sobre'>Sobre</Link></li>
-          <li className="hover:underline font-semibold text-lg"><Link to='/animais'>Animais</Link></li>
-          <li className="hover:underline font-semibold text-lg"><Link to='/contato'>Contato</Link></li>
-        </ul>
-      </header>
-
       <div className="w-full text-slate-950 bg-neutral-300 text-justify">
         <div className="flex flex-col-reverse overflow-hidden lg:flex-row">
           <section className="flex w-full justify-center md:p-12 lg:w-1/2 lg:justify-end lg:p-8 xl:p-16">
@@ -90,10 +81,7 @@ export const HomePage = () => {
         </div>
       </div>
 
-      <p> Excelente! A seção de contato precisa ser concisa, clara e convidativa. </p>
-
-      <p> Aqui está um mini-texto que você pode usar, com foco na comunicação e apoio:
-      </p>
+      {/* <p> Excelente! A seção de contato precisa ser concisa, clara e convidativa. </p>
       <p>Contato e Suporte
       </p>
       <p> Quer saber mais sobre nossos programas de conservação, planejar sua visita ou tem alguma dúvida? Estamos aqui para ajudar e adoramos ouvir você!
@@ -109,7 +97,11 @@ export const HomePage = () => {
       <p> Imprensa / Mídia	Email: imprensa@jardimdoedenimp.org
       </p>
       <p>Telefone	Tel: (XX) XXXX-XXXX</p>
-      <p>Endereço Físico	[Rua, Cidade, Estado, País ] </p>
+      <p>Endereço Físico	[Rua, Cidade, Estado, País ] </p> */}
     </main>
+
+    <Footer />
+
+    </>
   )
 }
