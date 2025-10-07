@@ -42,6 +42,7 @@ export const AnimalsPage = () => {
 <p><strong>👉 Venha conhecer de perto as espécies que estamos protegendo.</strong></p>
 
         </div>
+        
       </main>
     </>
   )

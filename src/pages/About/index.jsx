@@ -5,8 +5,8 @@ export const AboutPage = () => {
     <>
       <Navbar />
 
-      <main>
-        <div className="w-full text-slate-950 bg-neutral-200 text-justify">
+      <main className="text-slate-950 bg-neutral-200 text-justify">
+        <div className="w-ful mx-auto max-w-5xl">
           <h1 className="text-5xl p-2 m-2">🌍 Sobre o Zoológico Jardim do Éden</h1>
 
 <p>O <strong>Jardim do Éden</strong> é mais do que um zoológico: é um <strong>centro de excelência em conservação, educação e bem-estar animal</strong>. Fundado com a visão de proteger a biodiversidade global, trabalhamos diariamente para garantir um futuro mais seguro às espécies ameaçadas e inspirar as próximas gerações a se tornarem defensores da natureza.</p>
